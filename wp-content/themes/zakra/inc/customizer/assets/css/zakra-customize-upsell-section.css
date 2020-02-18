@@ -1,0 +1,73 @@
+li#accordion-section-zakra_customize_upsell_section h3.accordion-section-title {
+	background-color: #289DCC !important;
+	border-left-color: #0073aa;
+	color: #fff !important;
+}
+
+#accordion-section-zakra_customize_upsell_section h3 a:after {
+	color: #fff;
+}
+
+li#accordion-section-zakra_customize_upsell_section h3.accordion-section-title a {
+	color: #fff;
+}
+
+li#accordion-section-zakra_customize_upsell_section h3.accordion-section-title:after {
+	color: #fff !important;
+}
+
+li.customize-control-zakra-upsell .zakra-upsell-wrapper {
+	background-color: #fff;
+	padding: 20px;
+}
+
+li.customize-control-zakra-upsell .upsell-heading {
+	font-size: 16px !important;
+	text-transform: uppercase;
+	margin: 0 0 12px 0;
+	line-height: 1.5;
+}
+
+li.customize-control-zakra-upsell .upsell-feature {
+	font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+li.customize-control-zakra-upsell .upsell-feature:not(:last-child) {
+	border-bottom: 1px dotted #e9ecef;
+    padding: 0 0 8px 0;
+}
+
+li.customize-control-zakra-upsell .upsell-cta {
+	background-color: #269bd1;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 4px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition: 0.3s all;
+}
+
+li.customize-control-zakra-upsell .upsell-cta:hover {
+	background-color: #1e7ba6;
+}
+
+li.customize-control-zakra-upsell .launch-offer {
+	color: #FFF;
+	background-color: #ff8787;
+	padding: 12px 16px;
+	border-radius: 4px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+li.customize-control-zakra-upsell .coupon-code {
+	display: inline-block;
+	margin-top: 8px;
+	padding: 4px 8px;
+	color: #555d66;
+	background-color: #fff;
+	border-radius: 4px;
+}

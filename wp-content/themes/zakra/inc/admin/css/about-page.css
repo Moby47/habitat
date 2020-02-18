@@ -1,0 +1,370 @@
+/* Header. */
+.about-wrap.full-width-layout {
+	max-width: unset;
+}
+
+.about-wrap .about-text {
+	margin: 1em 0;
+}
+
+.about-wrap .header {
+	padding: 1em;
+	border: 1px solid #ccc;
+	margin: 0 0 20px;
+}
+
+@media screen and (min-width: 767px) {
+	.about-wrap .header {
+		display: flex;
+	}
+}
+
+.about-wrap .info {
+	margin-right: 10px;
+}
+
+.wp-badge.tg-welcome-logo {
+	background-color: #fff;
+	background-image: url(../images/zakra-logo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 70%;
+}
+
+.about-wrap .wp-badge {
+	position: unset;
+	flex: 0 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+	.about-wrap .wp-badge {
+		display: block;
+		margin: 1em auto;
+	}
+}
+
+.about-wrap .changelog {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.header h1 {
+	font-size: 30px;
+}
+
+/* Global */
+@media screen and (min-width: 767px) {
+	.about-wrap .about-body {
+		display: flex;
+	}
+
+	.about-wrap .about-content {
+		width: 80%;
+	}
+
+	.about-wrap .about-sidebar {
+		width: 20%;
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.about-wrap .about-sidebar {
+		margin-top: 20px;
+	}
+}
+
+/* Primary */
+
+.about-content li:last-child .nav-tab {
+	border-right: 1px solid #ccc;
+}
+
+.about-content > .ui-tabs-panel {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.about-wrap .ui-tabs-panel h3 {
+	margin: 0 0 0.5em;
+}
+
+.about-wrap .wrap {
+	margin: 10px 0;
+}
+
+.about-content .ui-state-active a {
+	background: #fff;
+	border-bottom-color: #fff;
+	color: #00a4e7;
+}
+
+/* Secondary. */
+.about-sidebar .aboutbox {
+	background-color: #FFF;
+	border: 1px solid #ccc;
+}
+
+.aboutbox h3 {
+	padding: 8px 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.aboutbox .inner {
+	padding: 0 10px 16px;
+}
+
+.aboutbox p, .aboutbox a {
+	font-size: 13px;
+}
+
+.aboutbox a {
+	text-decoration: none;
+}
+
+.aboutbox .dashicons {
+	margin-right: 5px;
+}
+
+/* Tab: Site Library */
+.tg-demo-showcase .wp-filter {
+	padding: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.tg-demo-showcase .theme-browser .theme .premium-demo-banner {
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	position: absolute;
+	top: 10px;
+	right: 0;
+	height: 30px;
+	width: 75px;
+	background: #51cf66;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #fff;
+}
+
+.tg-demo-showcase .theme-browser .theme .premium-demo-banner:before, .tg-demo-showcase .theme-browser .theme .premium-demo-banner:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 100%;
+}
+
+.tg-demo-showcase .theme-browser .theme .premium-demo-banner:before {
+	top: 0;
+	border-top: 15px solid #51cf66;
+	border-left: 15px solid transparent;
+}
+
+.tg-demo-showcase .theme-browser .theme .premium-demo-banner:after {
+	bottom: 0;
+	border-bottom: 15px solid #51cf66;
+	border-left: 15px solid transparent;
+}
+
+.tg-demo-showcase::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.tg-site-library-description {
+	margin: 20px 0 0;
+}
+
+/* Tab: Getting Started */
+.tab-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tab-content .tg-box {
+	flex: 1;
+	border-right: 1px solid #e9ecef;
+}
+
+.tab-content .tg-box:first-child {
+	margin-left: -20px;
+}
+.tab-content .tg-box:last-child {
+	border-right: none;
+	margin-right: -20px;
+}
+
+.tab-content .tg-box {
+	padding: 0 20px;
+}
+
+@media screen and (max-width: 992px) {
+	.tab-content .tg-box {
+		flex: 44%;
+		margin-bottom: 20px;
+	}
+
+	.tab-content .tg-box:nth-child(2n) {
+		margin-right: -20px;
+		border-right: none;
+	}
+
+	.tab-content .tg-box:nth-child(2n+1) {
+		margin-left: -20px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.tab-content .tg-box {
+		flex: 100%;
+		padding: 0 0 20px 0;
+		margin-bottom: 20px;
+		border-bottom: 1px solid #e9ecef;;
+		border-right: none;
+	}
+
+	.tab-content .tg-box:nth-child(2n){
+		margin-right: 0;
+	}
+
+	.tab-content .tg-box:nth-child(2n+1) {
+		margin-left: 0;
+	}
+}
+
+.about-wrap .tab-content p {
+	color: #777;
+}
+
+.about-wrap .tab-content .submit {
+	padding: 0;
+}
+
+/* Tab: Recommended Plugins */
+.recommended-plugins {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.recommended-plugins img {
+	border-bottom: 1px solid #e9ecef;
+}
+
+.recommended-plugins .plugin_box {
+	border: 1px solid #e9ecef;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 49%;
+}
+
+@media (max-width: 768px) {
+	.recommended-plugins .plugin_box {
+		width: auto;
+	}
+}
+
+.recommended-plugins .title-action-wrapper {
+	padding: 15px 20px 5px 20px;
+}
+
+.recommended-plugins .plugin-name {
+	font-size: 18px;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-bottom: 10px;
+	overflow: hidden;
+	line-height: normal;
+}
+
+.recommended-plugins .version-wrapper {
+	text-align: right;
+	font-size: 13px;
+	color: #aaa;
+	margin-left: auto;
+	padding-top: 5px;
+}
+
+.recommended-plugins .plugin-desc {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 13px;
+	color: #777;
+	line-height: 1.6;
+}
+
+.recommended-plugins .button-wrap > div {
+	padding: 0;
+	margin:0;
+}
+
+/* Tab: Support. */
+#support i.dashicons {
+    position: relative;
+    top: 5px;
+    color: #666;
+    margin-right: 15px;
+}
+
+.about-wrap .nav-tab {
+    font-size: 15px;
+    font-weight: 500;
+    background: #f1f1f1;
+	padding: 0.6em 1em;
+	margin: 0 0 -1px 0;
+	transition: .3s ease;
+	border: 1px solid #ccc;
+	border-right: 0;
+}
+
+.nav-tab:focus {
+    box-shadow: none;
+}
+
+/* Theme Activate Message */
+.zakra-message {
+    overflow: hidden;
+    position: relative;
+    border-left-color: #2ea2cc !important;
+}
+
+.zakra-message a.button-primary,
+.zakra-message a.button-secondary {
+    text-decoration: none !important;
+}
+
+.zakra-message a.zakra-message-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px 10px 21px;
+    font-size: 13px;
+    line-height: 1.23076923;
+    text-decoration: none;
+}
+.zakra-message a.zakra-message-close:before {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.about-sidebar h3 {
+	margin: 0;
+	font-size: 14px;
+}
