@@ -1,0 +1,7 @@
+2020-02-21T09:17:57+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(82): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action), Object(ActionScheduler_DateTime))
+#1 C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(68): ActionScheduler_Abstract_QueueRunner->schedule_next_instance(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(80): ActionScheduler_Abstract_QueueRunner->process_action('724')
+#3 C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\Action
+
