@@ -1,0 +1,4 @@
+2020-02-26T06:07:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\habitat\wp-includes\Requests\Transport\cURL.php on line 163
+
+2020-02-26T06:08:00+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\habitat\wp-content\plugins\elementor\includes\controls\groups\box-shadow.php on line 4
+
