@@ -1,0 +1,16 @@
+@font-face { font-family: 'Wpcallbuttonplugin'; src: url('../icons/icons.eot'); src: url('../icons/icons.eot?#iefix') format('embedded-opentype'), url('../icons/icons.woff2') format('woff2'), url('../icons/icons.woff') format('woff'), url('../icons/icons.ttf') format('truetype'), url('../icons/icons.otf') format('opentype'); font-weight: normal; font-style: normal; }
+.wp-call-button-block-btn-color-picker, .wp-call-button-block-txt-color-picker, .wp-call-button-block-phone-icon-checkbox, .wp-call-button-block-center-btn-checkbox { margin-top: 16px; margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
+.wp-call-button-block-btn-font-selector { margin-left: -16px; margin-right: -16px; padding-left: 16px; padding-right: 16px; }
+.wp-call-button-block-btn-color-picker label, .wp-call-button-block-txt-color-picker label, .wp-call-button-block-phone-icon-checkbox label, .wp-call-button-block-center-btn-checkbox label { margin-bottom: 8px; display: block; font-weight: bold; }
+.wp-call-button-block-button { min-width: 135px; display: inline-block; background: #269041; padding: 10px 20px 10px 20px; border-radius: 5px; line-height: 40px; font-weight: bold; }
+.wp-call-button-block-button:before { content: '\f001'; font-family: 'Wpcallbuttonplugin'; font-size: 156%; vertical-align: middle; margin-right: 8px; }
+.wp-call-button-block-button-no-phone { text-align: center; min-width: 135px; display: inline-block; background: #269041; padding: 10px 20px; border-radius: 5px; line-height: 40px; font-weight: bold; }
+.wp-call-button-block-button.block-editor-rich-text__editable[data-is-placeholder-visible=true] { width: auto !important; }
+.wp-call-button-block-button-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: .3; }
+.wp-call-button-block-btn-font-selector .components-base-control__label { margin-top: 20px; margin-bottom: 10px; display: block; font-weight: bold;  }
+.wp-call-button-block-btn-font-selector .components-button.components-color-palette__clear { margin-left: 15px; }
+.wp-call-button-block-bottom-sep { border-bottom: 1px solid #e2e4e7; padding-bottom: 16px; }
+.wp-call-button-block-top-sep { border-top: 1px solid #e2e4e7; padding-top: 12px; }
+div[data-type="wp-call-button/wp-call-button-block"] .components-autocomplete { text-align: center; }
+div[data-type="wp-call-button/wp-call-button-block"] .components-autocomplete:after { content: ''; display: block; clear: both; }
+.wp-call-button-block-button-normal { float: left; }
