@@ -1,0 +1,9 @@
+®üi^<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:888;s:11:"post_author";s:1:"2";s:9:"post_date";s:19:"2020-02-28 17:40:53";s:13:"post_date_gmt";s:19:"2020-02-28 17:40:53";s:12:"post_content";s:1080:"<img width="812" height="527" src="http://localhost/habitat/wp-content/uploads/2020/02/dining-1024x665.jpg" alt="" srcset="http://localhost/habitat/wp-content/uploads/2020/02/dining-1024x665.jpg 1024w, http://localhost/habitat/wp-content/uploads/2020/02/dining-300x195.jpg 300w, http://localhost/habitat/wp-content/uploads/2020/02/dining-768x499.jpg 768w, http://localhost/habitat/wp-content/uploads/2020/02/dining-600x390.jpg 600w, http://localhost/habitat/wp-content/uploads/2020/02/dining.jpg 1108w" sizes="(max-width: 812px) 100vw, 812px" />											
+			<h2>Explore more about us</h2>		
+			<p>We are a group of individuals that believe in the unique ideology of making the home an ambient and truly comfortable place, where stress is easily relieved.</p>		
+			<p>We believe that the choice of furniture greatly impacts on the quality of living at home.
+Hence our drive to address the challenge by providing a platform for people to easily easily access quality furniture that improves the quality of life at home.</p>		
+			<a href="#" role="button">
+						Shop now
+					</a>";s:10:"post_title";s:0:"";s:12:"post_excerpt";s:7:"
+						";s:11:"post_status";s:7:"inherit";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:15:"552-revision-v1";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2020-02-28 17:40:53";s:17:"post_modified_gmt";s:19:"2020-02-28 17:40:53";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:552;s:4:"guid";s:41:"http://localhost/habitat/552-revision-v1/";s:10:"menu_order";i:0;s:9:"post_type";s:8:"revision";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
