@@ -1,0 +1,1 @@
+|^o^<?php exit; ?>a:1:{s:7:"content";s:96:"C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce/templates/myaccount/form-edit-account.php";}

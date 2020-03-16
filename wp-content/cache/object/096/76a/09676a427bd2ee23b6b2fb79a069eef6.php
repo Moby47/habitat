@@ -1,1 +1,0 @@
-'Go^<?php exit; ?>a:1:{s:7:"content";s:85:"C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce/templates/cart/cart-totals.php";}
