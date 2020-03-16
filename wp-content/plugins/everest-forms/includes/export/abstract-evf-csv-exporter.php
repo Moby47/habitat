@@ -286,7 +286,7 @@ abstract class EVF_CSV_Exporter {
 	public function escape_data( $data ) {
 		$active_content_triggers = array( '=', '+', '-', '@' );
 
-		if ( in_array( mb_substr( $data, 0, 1 ), $active_content_triggers, true ) ) {
+		if ( in_array( mb_substr( $data, 0, 1 ), $active_content_triggers, true ) ) { // @codingStandardsIgnoreLine
 			$data = "'" . $data . "'";
 		}
 
@@ -327,14 +327,18 @@ abstract class EVF_CSV_Exporter {
 	protected function implode_values( $values ) {
 		$values_to_implode = array();
 
-		// For checkboxe and radio.
+		// For checkbox and radio.
 		if ( ! empty( $values['label'] ) ) {
 			$values = $values['label'];
 		}
 
-		foreach ( $values as $value ) {
-			$value               = (string) is_scalar( $value ) ? $value : '';
-			$values_to_implode[] = str_replace( ',', '\\,', $value );
+		if ( is_array( $values ) ) {
+			foreach ( $values as $value ) {
+				$value               = is_scalar( $value ) ? (string) $value : '';
+				$values_to_implode[] = str_replace( ',', '\\,', $value );
+			}
+		} else {
+			$values_to_implode[] = str_replace( ',', '\\,', $values );
 		}
 
 		return implode( ', ', $values_to_implode );

@@ -1,4 +1,4 @@
-£^o^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:646;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-17 08:41:43";s:13:"post_date_gmt";s:19:"2019-06-17 08:41:43";s:12:"post_content";s:1854:"<p>NEW COLLECTION</p>		
+Ézo^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:646;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-17 08:41:43";s:13:"post_date_gmt";s:19:"2019-06-17 08:41:43";s:12:"post_content";s:1854:"<p>NEW COLLECTION</p>		
 			<h5>OPENING SALE 25%</h5>		
 			<p>Come home to stylish digs when you pick up a few pieces from these Pinterest-worthy home decor and furniture stores</p>		
 			<a href="/shop" role="button">

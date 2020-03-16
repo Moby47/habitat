@@ -1,0 +1,17 @@
+/* If a day of the week checkbox is disabled, modify its hover cursor. */
+.schedule-dow input[type='checkbox'][disabled]:hover {
+	cursor: not-allowed;
+}
+
+.form-table tr td p {
+	padding: 5px 0px;
+	margin: 0px;
+}
+
+.bgb-unbold {
+	font-weight: normal;
+}
+
+#auto-recovery-tr {
+	display: none;
+}

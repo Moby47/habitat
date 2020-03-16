@@ -1,4 +1,4 @@
-¤^o^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:9;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-17 08:42:22";s:13:"post_date_gmt";s:19:"2019-06-17 08:42:22";s:12:"post_content";s:5260:"<h2>FAQ'S</h2>
+çzo^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:9;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-17 08:42:22";s:13:"post_date_gmt";s:19:"2019-06-17 08:42:22";s:12:"post_content";s:5260:"<h2>FAQ'S</h2>
 <a href="">How Do I Purchase A Product?</a>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt velit et libero ultrices congue. Nullam eu orci eu ex rutrum hendrerit. Ut enim justo, molestie sed ultricies id, ultrices eu ligula. Quisque nisl elit, fermentum a velit id, mollis volutpat lectus.

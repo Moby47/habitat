@@ -1,4 +1,4 @@
-/*! elementor - v2.9.2 - 16-02-2020 */
+/*! elementor - v2.9.6 - 12-03-2020 */
 @charset "UTF-8";
 .elementor-control-unit-1 {
   width: 27px; }
@@ -2718,9 +2718,6 @@ html.elementor-html {
   #elementor-add-new-section[data-view="choose-action"] .elementor-add-section-close {
     display: none; }
 
-.elementor-embedded-editor .elementor-section-wrap:not(:empty) + #elementor-add-new-section {
-  display: none; }
-
 .elementor-add-section-inline {
   margin: 10px auto; }
 
@@ -2771,21 +2768,22 @@ html.elementor-html {
 .elementor-editor-preview .elementor-widget-empty {
   display: none; }
 
-[data-elementor-device-mode="desktop"] .elementor-hidden-desktop,
-[data-elementor-device-mode="tablet"] .elementor-hidden-tablet,
-[data-elementor-device-mode="mobile"] .elementor-hidden-phone {
+[data-elementor-device-mode="desktop"] .elementor-edit-area-active .elementor-hidden-desktop,
+[data-elementor-device-mode="tablet"] .elementor-edit-area-active .elementor-hidden-tablet,
+[data-elementor-device-mode="mobile"] .elementor-edit-area-active .elementor-hidden-phone {
+  display: inherit;
   background: -webkit-repeating-linear-gradient(325deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 2px, transparent 9px);
   background: -o-repeating-linear-gradient(325deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 2px, transparent 9px);
   background: repeating-linear-gradient(125deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 1px, transparent 2px, transparent 9px);
   border: 1px solid rgba(0, 0, 0, 0.02); }
-  [data-elementor-device-mode="desktop"] .elementor-hidden-desktop.elementor-section > .elementor-element-overlay,
-  [data-elementor-device-mode="tablet"] .elementor-hidden-tablet.elementor-section > .elementor-element-overlay,
-  [data-elementor-device-mode="mobile"] .elementor-hidden-phone.elementor-section > .elementor-element-overlay {
+  [data-elementor-device-mode="desktop"] .elementor-edit-area-active .elementor-hidden-desktop.elementor-section > .elementor-element-overlay,
+  [data-elementor-device-mode="tablet"] .elementor-edit-area-active .elementor-hidden-tablet.elementor-section > .elementor-element-overlay,
+  [data-elementor-device-mode="mobile"] .elementor-edit-area-active .elementor-hidden-phone.elementor-section > .elementor-element-overlay {
     background-color: #d5dadf;
     mix-blend-mode: color; }
-  [data-elementor-device-mode="desktop"] .elementor-hidden-desktop.elementor-section:before,
-  [data-elementor-device-mode="tablet"] .elementor-hidden-tablet.elementor-section:before,
-  [data-elementor-device-mode="mobile"] .elementor-hidden-phone.elementor-section:before {
+  [data-elementor-device-mode="desktop"] .elementor-edit-area-active .elementor-hidden-desktop.elementor-section:before,
+  [data-elementor-device-mode="tablet"] .elementor-edit-area-active .elementor-hidden-tablet.elementor-section:before,
+  [data-elementor-device-mode="mobile"] .elementor-edit-area-active .elementor-hidden-phone.elementor-section:before {
     content: '';
     display: block;
     position: absolute;
@@ -2795,11 +2793,11 @@ html.elementor-html {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     z-index: 9997; }
-  [data-elementor-device-mode="desktop"] .elementor-hidden-desktop > .elementor-widget-container, [data-elementor-device-mode="desktop"] .elementor-hidden-desktop > .elementor-column-wrap,
-  [data-elementor-device-mode="tablet"] .elementor-hidden-tablet > .elementor-widget-container,
-  [data-elementor-device-mode="tablet"] .elementor-hidden-tablet > .elementor-column-wrap,
-  [data-elementor-device-mode="mobile"] .elementor-hidden-phone > .elementor-widget-container,
-  [data-elementor-device-mode="mobile"] .elementor-hidden-phone > .elementor-column-wrap {
+  [data-elementor-device-mode="desktop"] .elementor-edit-area-active .elementor-hidden-desktop > .elementor-widget-container, [data-elementor-device-mode="desktop"] .elementor-edit-area-active .elementor-hidden-desktop > .elementor-column-wrap,
+  [data-elementor-device-mode="tablet"] .elementor-edit-area-active .elementor-hidden-tablet > .elementor-widget-container,
+  [data-elementor-device-mode="tablet"] .elementor-edit-area-active .elementor-hidden-tablet > .elementor-column-wrap,
+  [data-elementor-device-mode="mobile"] .elementor-edit-area-active .elementor-hidden-phone > .elementor-widget-container,
+  [data-elementor-device-mode="mobile"] .elementor-edit-area-active .elementor-hidden-phone > .elementor-column-wrap {
     -webkit-filter: opacity(0.4) saturate(0);
             filter: opacity(0.4) saturate(0); }
 /*# sourceMappingURL=editor-preview.css.map */

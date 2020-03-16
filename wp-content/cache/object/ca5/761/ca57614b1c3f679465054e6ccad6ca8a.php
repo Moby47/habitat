@@ -1,4 +1,4 @@
-¡^o^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:92;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-19 06:32:12";s:13:"post_date_gmt";s:19:"2019-06-19 06:32:12";s:12:"post_content";s:758:"<h6>My Account</h6>		
+çzo^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:92;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2019-06-19 06:32:12";s:13:"post_date_gmt";s:19:"2019-06-19 06:32:12";s:12:"post_content";s:758:"<h6>My Account</h6>		
 			<p>Welcome</p>		
 				<a href="http://localhost/habitat/my-account/orders">
 								</a>

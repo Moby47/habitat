@@ -1,1 +1,1 @@
-ã^o^<?php exit; ?>a:1:{s:7:"content";s:1:"1";}
+²xo^<?php exit; ?>a:1:{s:7:"content";b:1;}

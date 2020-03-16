@@ -1,4 +1,4 @@
-/*! elementor - v2.9.2 - 16-02-2020 */
+/*! elementor - v2.9.6 - 12-03-2020 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -82,7 +82,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 606);
+/******/ 	return __webpack_require__(__webpack_require__.s = 619);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -90,8 +90,8 @@
 /***/ 10:
 /***/ (function(module, exports, __webpack_require__) {
 
-var store = __webpack_require__(58)('wks');
-var uid = __webpack_require__(59);
+var store = __webpack_require__(60)('wks');
+var uid = __webpack_require__(61);
 var Symbol = __webpack_require__(13).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
 
@@ -125,10 +125,10 @@ module.exports = !__webpack_require__(23) && !__webpack_require__(25)(function (
 // 4 -> Array#every
 // 5 -> Array#find
 // 6 -> Array#findIndex
-var ctx = __webpack_require__(55);
+var ctx = __webpack_require__(56);
 var IObject = __webpack_require__(97);
-var toObject = __webpack_require__(62);
-var toLength = __webpack_require__(36);
+var toObject = __webpack_require__(64);
+var toLength = __webpack_require__(37);
 var asc = __webpack_require__(130);
 module.exports = function (TYPE, $create) {
   var IS_MAP = TYPE == 1;
@@ -169,7 +169,7 @@ module.exports = function (TYPE, $create) {
 /***/ 119:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(58)('native-function-to-string', Function.toString);
+module.exports = __webpack_require__(60)('native-function-to-string', Function.toString);
 
 
 /***/ }),
@@ -307,7 +307,7 @@ module.exports = function (exec) {
 /***/ 28:
 /***/ (function(module, exports, __webpack_require__) {
 
-var dP = __webpack_require__(39);
+var dP = __webpack_require__(40);
 var createDesc = __webpack_require__(87);
 module.exports = __webpack_require__(23) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
@@ -323,10 +323,10 @@ module.exports = __webpack_require__(23) ? function (object, key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(13);
-var core = __webpack_require__(40);
+var core = __webpack_require__(41);
 var hide = __webpack_require__(28);
 var redefine = __webpack_require__(31);
-var ctx = __webpack_require__(55);
+var ctx = __webpack_require__(56);
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -374,13 +374,13 @@ module.exports = $export;
 
 var global = __webpack_require__(13);
 var hide = __webpack_require__(28);
-var has = __webpack_require__(50);
-var SRC = __webpack_require__(59)('src');
+var has = __webpack_require__(51);
+var SRC = __webpack_require__(61)('src');
 var $toString = __webpack_require__(119);
 var TO_STRING = 'toString';
 var TPL = ('' + $toString).split(TO_STRING);
 
-__webpack_require__(40).inspectSource = function (it) {
+__webpack_require__(41).inspectSource = function (it) {
   return $toString.call(it);
 };
 
@@ -431,11 +431,11 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ 36:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(47);
+var toInteger = __webpack_require__(48);
 var min = Math.min;
 module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -444,7 +444,7 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ 39:
+/***/ 40:
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(18);
@@ -467,7 +467,7 @@ exports.f = __webpack_require__(23) ? Object.defineProperty : function definePro
 
 /***/ }),
 
-/***/ 40:
+/***/ 41:
 /***/ (function(module, exports) {
 
 var core = module.exports = { version: '2.6.10' };
@@ -476,7 +476,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 /***/ }),
 
-/***/ 47:
+/***/ 48:
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -489,7 +489,7 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ 50:
+/***/ 51:
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -500,11 +500,11 @@ module.exports = function (it, key) {
 
 /***/ }),
 
-/***/ 55:
+/***/ 56:
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(60);
+var aFunction = __webpack_require__(62);
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -527,10 +527,10 @@ module.exports = function (fn, that, length) {
 
 /***/ }),
 
-/***/ 58:
+/***/ 60:
 /***/ (function(module, exports, __webpack_require__) {
 
-var core = __webpack_require__(40);
+var core = __webpack_require__(41);
 var global = __webpack_require__(13);
 var SHARED = '__core-js_shared__';
 var store = global[SHARED] || (global[SHARED] = {});
@@ -546,7 +546,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 
 /***/ }),
 
-/***/ 59:
+/***/ 61:
 /***/ (function(module, exports) {
 
 var id = 0;
@@ -558,18 +558,7 @@ module.exports = function (key) {
 
 /***/ }),
 
-/***/ 60:
-/***/ (function(module, exports) {
-
-module.exports = function (it) {
-  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
-  return it;
-};
-
-
-/***/ }),
-
-/***/ 606:
+/***/ 619:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -683,6 +672,17 @@ __webpack_require__(15);
 /***/ }),
 
 /***/ 62:
+/***/ (function(module, exports) {
+
+module.exports = function (it) {
+  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
+  return it;
+};
+
+
+/***/ }),
+
+/***/ 64:
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.13 ToObject(argument)

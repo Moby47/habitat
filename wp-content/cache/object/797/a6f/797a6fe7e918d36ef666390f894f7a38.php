@@ -1,1 +1,1 @@
-t^o^<?php exit; ?>a:1:{s:7:"content";s:85:"C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce/templates/myaccount/orders.php";}
+Syo^<?php exit; ?>a:1:{s:7:"content";s:85:"C:\xampp\htdocs\habitat\wp-content\plugins\woocommerce/templates/myaccount/orders.php";}
