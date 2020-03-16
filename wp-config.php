@@ -26,10 +26,10 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 define( 'DB_NAME', 'habitat' );
 
 /** MySQL database username */
-define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Pass@1234567' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
